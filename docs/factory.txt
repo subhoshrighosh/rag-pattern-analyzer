@@ -1,0 +1,20 @@
+Definition:
+A creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+
+Structure:
+- Product interface defining common behavior.
+- ConcreteProduct classes implementing Product.
+- Factory class with a method that returns Product instances based on input.
+
+When to use:
+Use when a class cannot anticipate the type of objects it must create, or when creation logic should be centralized and decoupled from the client.
+
+Advantages:
+- Encapsulates object creation logic.
+- Promotes loose coupling between clients and concrete classes.
+- Simplifies unit testing by substituting mock factories.
+
+Disadvantages:
+- Adds complexity with extra classes and interfaces.
+- Can result in many small classes if there are many product variants.
+- Clients must comprehend factory abstraction to use the pattern.

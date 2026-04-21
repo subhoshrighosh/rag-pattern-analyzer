@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# ML / Vector DB
+*.pkl
+*.faiss
+
+# IDE
+.vscode/
+
+# Mac junk
+.DS_Store
+
+# Git internal (very important)
+.git/

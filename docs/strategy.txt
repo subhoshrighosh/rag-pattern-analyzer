@@ -1,0 +1,20 @@
+Definition:
+A behavioral pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable within a context.
+
+Structure:
+- Strategy interface declaring an operation.
+- ConcreteStrategy classes implementing the interface with specific behaviors.
+- Context class holding a reference to a Strategy and delegating execution.
+
+When to use:
+Use when a class must support multiple algorithms or behaviors and they should vary independently from clients.
+
+Advantages:
+- Eliminates conditional statements by encapsulating algorithms.
+- Strategies can be swapped at runtime.
+- Promotes adherence to Open/Closed Principle.
+
+Disadvantages:
+- Increases number of classes for each strategy variation.
+- Clients must understand and configure the strategy objects.
+- Can complicate maintenance if strategies depend on each other.

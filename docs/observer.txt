@@ -1,0 +1,21 @@
+Definition:
+A behavioral pattern where an object (subject) maintains a list of dependents (observers) and notifies them automatically of state changes.
+
+Structure:
+- Observer interface with an update method.
+- Subject interface with attach, detach, and notify methods.
+- ConcreteSubject managing a list of observers and invoking updates.
+- ConcreteObserver implementing Observer to respond to notifications.
+
+When to use:
+Use when changes to one object must be propagated to others without tight coupling, such as GUI event handling or event-driven systems.
+
+Advantages:
+- Promotes loose coupling between subject and observers.
+- Supports dynamic addition/removal of observers at runtime.
+- Enables broadcast communication to multiple listeners.
+
+Disadvantages:
+- Can lead to unpredictable update order and cascading notifications.
+- Potential memory leaks if observers aren’t detached properly.
+- Harder to debug due to indirect communication paths.

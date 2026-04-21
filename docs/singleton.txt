@@ -1,0 +1,20 @@
+Definition:
+A creational design pattern that ensures a class has only one instance and provides a global point of access to it.
+
+Structure:
+- Private static variable holding the sole instance
+- Private constructor to prevent external instantiation
+- Public static method (often named getInstance) returning the instance, creating it if necessary.
+
+When to use:
+Use when exactly one object is needed to coordinate actions across the system, such as configuration managers, logging, or resource pools.
+
+Advantages:
+- Controlled access to the single instance.
+- Reduced namespace because no global variables are needed.
+- Lazy initialization possible.
+
+Disadvantages:
+- Can introduce global state, hindering testability.
+- May lead to hidden dependencies between classes.
+- Difficult to subclass or extend due to private constructor.
