@@ -65,11 +65,11 @@ RAG improves response quality by:
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation & Setup for Local System
 
 ### 1. Clone Repository
 
-git clone https://github.com/RohitIngleWork/design-pattern-chatbot-rag.git
+git clone https://github.com/subhoshrighosh/rag-pattern-analyzer
 cd design-pattern-chatbot-rag
 
 ### 2. Create Virtual Environment
@@ -89,9 +89,11 @@ pip install -r requirements.txt
 streamlit run app.py
 
 Open in browser:
-http://localhost:8501
+[http://localhost:8501]
 
 ---
+## ▶️ Deployed Link
+https://huggingface.co/spaces/subhoshriGhosh/ragpattern-analyzer
 
 ## 🔄 Workflow
 
@@ -141,9 +143,9 @@ http://localhost:8501
 
 ## 👨‍💻 Author
 
-**Rohit Ingle**
-M.Tech (Agile Software Engineering)
-MANIT Bhopal
+**Subhoshri Ghosh**
+M.Tech in Software Engineering
+
 
 ---
 
